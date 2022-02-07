@@ -38,7 +38,7 @@ rel="stylesheet">
       <?php endforeach;?>
       </tbody>
     </table>
-    
+    <a href="<?php echo site_url('product/add_new/'.$row->product_id);?>" class="btn btn-sm btn-info">add item</a>
     </div>
 
 
